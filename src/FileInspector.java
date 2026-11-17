@@ -31,7 +31,7 @@ public class FileInspector {
                     rec = reader.readLine();
                     line++;
                     word = rec.split(" ");
-                    wordCount = word.length;
+                    wordCount += word.length;
                     character += rec.length();
 
                     System.out.printf("\nLine %4d %-60s ", line, rec);
